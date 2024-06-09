@@ -1,8 +1,7 @@
 'use strict';
 var mongoose = require('mongoose'),
 		Schema = mongoose.Schema,
-		ObjectId = Schema.ObjectId,
-		bcrypt = require("bcryptjs");
+		ObjectId = Schema.ObjectId
 
 var fields = {
   id:{type:Number},
